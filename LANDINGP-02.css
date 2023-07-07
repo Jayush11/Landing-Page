@@ -94,7 +94,9 @@ a{
 #textcentre h1  {
   font-size: 90px;
   font-weight: 900;
-  
+  background: linear-gradient(90deg ,#2ff8ff 0% ,#e7a304 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
 }
 
