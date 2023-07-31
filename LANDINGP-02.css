@@ -20,6 +20,7 @@ a{
   width: 100%;
   height: 100%;
   display: flex;
+  
 }
 
 #left {
@@ -30,7 +31,9 @@ a{
 
 .background{
   color: white;
-  background: linear-gradient(90deg,#877f79,#3c055f);
+  background: linear-gradient(90deg,#7fa410,#1c0656);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,32,1) 77%);
 }
 
 #leftnav {
@@ -46,8 +49,8 @@ a{
 }
 
 .ri-arrow-left-line:hover{
-  color: black;
-  box-shadow: 7px 10px 7px rgba(0, 0, 0, 0.496);
+  color: white;
+  box-shadow: 7px 10px 7px rgba(217, 227, 236, 0.496);
 }
 
 .ri-arrow-left-line:active {
@@ -59,7 +62,7 @@ a{
   text-decoration: none;
   color:white;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #leftnavRS a:hover{
@@ -72,7 +75,7 @@ a{
 }
 
 #leftnavRS i{
-  color: rgb(29, 161, 242);
+  color: rgb(87, 41, 205);
 }
 
 #leftnavRS i:hover{
@@ -92,7 +95,7 @@ a{
 }
 
 #textcentre h1  {
-  font-size: 90px;
+  font-size: 10vw;
   font-weight: 900;
   background: linear-gradient(90deg ,#2ff8ff 0% ,#e7a304 75%);
   -webkit-background-clip: text;
@@ -102,11 +105,17 @@ a{
 
 #textcentre p {
   opacity: 0.8;
-  font-size: 1rem;
-  line-height: 20px;
+  font-size: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#linkedin-icon {
+  width: 80px; 
+  height: auto; 
+}
+
+
 
 .button{
   padding: 5px;
@@ -114,7 +123,7 @@ a{
   cursor: pointer;
   border-radius: 10px  30px;
   border:1px solid white;
-  color: black;
+  color: white;
   font-size: 16px;
   font-weight: 700;
   font-family: cursive;
@@ -124,8 +133,8 @@ a{
 }
 
 .button:hover{
-  color: white;
-  background: black;
+  color: black;
+  background: white;
   opacity: 0.7;
 }
 
@@ -149,7 +158,7 @@ a{
 #righttopL {
   width: 55%;
   height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80);
+  background-image: url(images/cat.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -157,20 +166,44 @@ a{
 #righttopR {
   width: 45%;
   height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1618724980108-a4d3856fd8f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+  background-image: url(images/cat2.jpg);
   background-size: cover;
   background-position: center;
 }
+
+
+
+  .image-container img {
+    display: none;
+    width: 200px;
+    height: 200px;
+  }
+  .image-container img:target {
+    display: block;
+  }
+
+  
 
 #rightbottom {
   width: 100%;
   height: 50%;
-  background-image: url(https://images.unsplash.com/photo-1540331547168-8b63109225b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1019&q=80);
+  
+  background-image: url("images/infinity.png");*/
   background-size: cover;
   background-position: center;
 }
 
-/* @media screen and (max:749px){
+.image-container{
+  width: 90px;
+  height: 90px;
+}
+
+.image-container{
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max:749px){
   
 
   #main {
@@ -185,4 +218,5 @@ a{
     width: 100%;
   }
   
-} */
+}
+
